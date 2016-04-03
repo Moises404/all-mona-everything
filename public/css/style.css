@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+#set-height {
+  display: block;
+  height: 13500px;
+}
+#v0 {
+	position: fixed;
+	top: 0;
+	left: -300px;
+	width: 320px;
+	height: 320px;
+	left: 0px;
+	right: 0;
+	margin: -131px auto 0 auto;
+	top: 38%;
+}
+p font-family helvetica {
+  font-size: 24px;
+}
+.video-wrapper {
+	width: 333px;
+	overflow: hidden;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+}
+#mona-wallpaper {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	display: block;
+	background: url("http://randomwallpapers.net/mona-lisa-in-cubism-museum-digital-art-2880x1800-wallpaper130768.jpg");
+	background-size: 1510px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
